@@ -8,5 +8,5 @@ class Alamat{
     var namaDepan: String = ""
     // null artinya boleh kosong
     var namaTengah: String? = null
-    var namaBelakang: String = "Indonesia"
+    var namaBelakang: String = ""
 }
