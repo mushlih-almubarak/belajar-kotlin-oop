@@ -1,3 +1,0 @@
-package Data
-
-class Alamat

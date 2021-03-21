@@ -5,4 +5,4 @@ Namun lebih bagus jika nama classnya sama, agar memudahkan kita untuk mencari di
 
 package Data
 
-class Penjelasan
+class namaClass
