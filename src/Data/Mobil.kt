@@ -2,7 +2,7 @@ package Data
 
 // Kode yang ada di file ini akan di panggil di main function pada file "Constructors"
 
-class Mobil(parameterMerek:String, parameterTahun:Int = 2020) {
+class Mobil(parameterMerek:String, parameterNama:String, parameterTahun:Int = 2020) {
 
     /* Kita tidak bisa membuat kode program seenaknya pada "Constructors", karena ini bukan function
     Jika kita ingin membuat kode program di dalam Constructors, maka kita dapat menggunakan kode "init" */
@@ -14,6 +14,9 @@ class Mobil(parameterMerek:String, parameterTahun:Int = 2020) {
     init {
         println("Mobil $parameterMerek dibuat pada tahun $parameterTahun")
     }
+
+
     var merek = parameterMerek
+    var  nama = parameterNama
     var tahun = parameterTahun
 }
